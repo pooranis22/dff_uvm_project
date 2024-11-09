@@ -1,5 +1,5 @@
 
-class dff_driver extends uvm_driver;
+class dff_driver extends uvm_driver#(dff_seq_item);
   `uvm_component_utilis(dff_driver) //register class to factory
   virtual dff_intf intf
   
