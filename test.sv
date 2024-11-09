@@ -29,6 +29,7 @@ class dff_test extends uvm_test;
   //end of ellaboration phase gives uvm_hierarchy 
   virtual function void end_of_elaboration();
     `uvm_info("Test class", "elab phase",UVM_MEDIUM)
+    print();
   endfunction
   
   task run_phase(uvm_phase phase);
